@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		79A671FF27A813E200954B8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A671FE27A813E200954B8E /* AppDelegate.swift */; };
 		79A6720127A813E200954B8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A6720027A813E200954B8E /* SceneDelegate.swift */; };
-		79A6720327A813E200954B8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A6720227A813E200954B8E /* ViewController.swift */; };
+		79A6720327A813E200954B8E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A6720227A813E200954B8E /* WelcomeViewController.swift */; };
 		79A6720627A813E200954B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A6720427A813E200954B8E /* Main.storyboard */; };
 		79A6720827A813E300954B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A6720727A813E300954B8E /* Assets.xcassets */; };
 		79A6720B27A813E300954B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A6720927A813E300954B8E /* LaunchScreen.storyboard */; };
+		79A6721327A8145A00954B8E /* DM-Launch-Screen.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 79A6721227A8145A00954B8E /* DM-Launch-Screen.pdf */; };
+		79A6721527A81EB000954B8E /* daro-chat-backg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 79A6721427A81EB000954B8E /* daro-chat-backg.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79A671FB27A813E200954B8E /* Daro's-Chat-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daro's-Chat-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A671FE27A813E200954B8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79A6720027A813E200954B8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		79A6720227A813E200954B8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79A6720227A813E200954B8E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		79A6720527A813E200954B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79A6720727A813E300954B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79A6720A27A813E300954B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79A6720C27A813E400954B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A6721227A8145A00954B8E /* DM-Launch-Screen.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "DM-Launch-Screen.pdf"; path = "../../DM-Launch-Screen.pdf"; sourceTree = "<group>"; };
+		79A6721427A81EB000954B8E /* daro-chat-backg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "daro-chat-backg.pdf"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				79A671FE27A813E200954B8E /* AppDelegate.swift */,
 				79A6720027A813E200954B8E /* SceneDelegate.swift */,
-				79A6720227A813E200954B8E /* ViewController.swift */,
+				79A6720227A813E200954B8E /* WelcomeViewController.swift */,
 				79A6720427A813E200954B8E /* Main.storyboard */,
 				79A6720727A813E300954B8E /* Assets.xcassets */,
 				79A6720927A813E300954B8E /* LaunchScreen.storyboard */,
 				79A6720C27A813E400954B8E /* Info.plist */,
+				79A6721227A8145A00954B8E /* DM-Launch-Screen.pdf */,
+				79A6721427A81EB000954B8E /* daro-chat-backg.pdf */,
 			);
 			path = "Daro's-Chat-App";
 			sourceTree = "<group>";
@@ -125,8 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A6721527A81EB000954B8E /* daro-chat-backg.pdf in Resources */,
 				79A6720B27A813E300954B8E /* LaunchScreen.storyboard in Resources */,
 				79A6720827A813E300954B8E /* Assets.xcassets in Resources */,
+				79A6721327A8145A00954B8E /* DM-Launch-Screen.pdf in Resources */,
 				79A6720627A813E200954B8E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A6720327A813E200954B8E /* ViewController.swift in Sources */,
+				79A6720327A813E200954B8E /* WelcomeViewController.swift in Sources */,
 				79A671FF27A813E200954B8E /* AppDelegate.swift in Sources */,
 				79A6720127A813E200954B8E /* SceneDelegate.swift in Sources */,
 			);
