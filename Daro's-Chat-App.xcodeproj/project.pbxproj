@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		799D8F3427AA91E1007DC7B7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799D8F3327AA91E1007DC7B7 /* RegisterViewController.swift */; };
+		799D8F3627AA928E007DC7B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799D8F3527AA928E007DC7B7 /* LoginViewController.swift */; };
+		799D8F3827AA92AC007DC7B7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799D8F3727AA92AC007DC7B7 /* ChatViewController.swift */; };
 		79A671FF27A813E200954B8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A671FE27A813E200954B8E /* AppDelegate.swift */; };
 		79A6720127A813E200954B8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A6720027A813E200954B8E /* SceneDelegate.swift */; };
 		79A6720327A813E200954B8E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A6720227A813E200954B8E /* WelcomeViewController.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		799D8F3327AA91E1007DC7B7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		799D8F3527AA928E007DC7B7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		799D8F3727AA92AC007DC7B7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		79A671FB27A813E200954B8E /* Daro's-Chat-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daro's-Chat-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A671FE27A813E200954B8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79A6720027A813E200954B8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +47,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		799D8F3027AA9190007DC7B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		799D8F3127AA9196007DC7B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		799D8F3227AA919C007DC7B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				79A6720227A813E200954B8E /* WelcomeViewController.swift */,
+				799D8F3327AA91E1007DC7B7 /* RegisterViewController.swift */,
+				799D8F3527AA928E007DC7B7 /* LoginViewController.swift */,
+				799D8F3727AA92AC007DC7B7 /* ChatViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		79A671F227A813E200954B8E = {
 			isa = PBXGroup;
 			children = (
@@ -60,10 +91,12 @@
 		79A671FD27A813E200954B8E /* Daro's-Chat-App */ = {
 			isa = PBXGroup;
 			children = (
+				799D8F3027AA9190007DC7B7 /* Model */,
 				79A671FE27A813E200954B8E /* AppDelegate.swift */,
 				79A6720027A813E200954B8E /* SceneDelegate.swift */,
-				79A6720227A813E200954B8E /* WelcomeViewController.swift */,
+				799D8F3127AA9196007DC7B7 /* View */,
 				79A6720427A813E200954B8E /* Main.storyboard */,
+				799D8F3227AA919C007DC7B7 /* Controller */,
 				79A6720727A813E300954B8E /* Assets.xcassets */,
 				79A6720927A813E300954B8E /* LaunchScreen.storyboard */,
 				79A6720C27A813E400954B8E /* Info.plist */,
@@ -149,6 +182,9 @@
 				79A6720327A813E200954B8E /* WelcomeViewController.swift in Sources */,
 				79A671FF27A813E200954B8E /* AppDelegate.swift in Sources */,
 				79A6720127A813E200954B8E /* SceneDelegate.swift in Sources */,
+				799D8F3627AA928E007DC7B7 /* LoginViewController.swift in Sources */,
+				799D8F3827AA92AC007DC7B7 /* ChatViewController.swift in Sources */,
+				799D8F3427AA91E1007DC7B7 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
