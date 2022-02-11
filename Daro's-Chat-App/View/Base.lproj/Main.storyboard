@@ -55,11 +55,11 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daro's Chat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bqm-lW-2ch" userLabel="Title Label">
-                                <rect key="frame" x="56" y="418" width="302.5" height="60"/>
+                                <rect key="frame" x="81" y="368" width="252" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="02Y-xB-C9u"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="60"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="50"/>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -74,7 +74,7 @@
                             <constraint firstItem="Wf6-sh-peU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="J69-CL-T2e"/>
                             <constraint firstItem="Wf6-sh-peU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Qn9-lT-hhT"/>
                             <constraint firstItem="lgv-y2-6er" firstAttribute="top" secondItem="Wf6-sh-peU" secondAttribute="bottom" constant="5" id="V6k-ms-LhV"/>
-                            <constraint firstItem="bqm-lW-2ch" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="deI-aX-kmZ"/>
+                            <constraint firstItem="bqm-lW-2ch" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="deI-aX-kmZ"/>
                             <constraint firstItem="lgv-y2-6er" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fX3-x5-ktG"/>
                             <constraint firstItem="dEE-tu-bcw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kyS-xX-x3F"/>
                             <constraint firstItem="lgv-y2-6er" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lJE-1u-aFj"/>

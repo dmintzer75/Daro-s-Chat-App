@@ -7,69 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39719A162A81897C508459B0098E29BE /* CLTypingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A42BC899FD84319FB00575D48163EE6 /* CLTypingLabel-dummy.m */; };
-		49923046619B9CAAFB7637D029C285FA /* Pods-Daro's-Chat-App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43807B5070A23075F4DCE0DB74F80A11 /* Pods-Daro's-Chat-App-dummy.m */; };
-		4D2FC53B4837E9FED51200C321D9420C /* CLTypingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD44B03F013CF271605C5A4CB123933D /* CLTypingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B941A963520D0916875666545391E696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C5843936956336D732E73AFA5EEAB889 /* CLTypingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C960689C9B0938D0A50949B30985509 /* CLTypingLabel.swift */; };
-		E2A01F0F5504F2192BFDDFB1D9898512 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E5CDDF3E08D69384B640474F37932296 /* Pods-Daro's-Chat-App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B83ADFD15C243CA3D5B029AE7CC9A0BF /* Pods-Daro's-Chat-App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25F84C8FE80C0BA660B3248D71D71063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3FCF4AA2E0CDFB5305CD99F99876F4A3 /* Pods-Daro's-Chat-App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C449E5C40B28F3C4BE6C4568263BF42 /* Pods-Daro's-Chat-App-dummy.m */; };
+		D79C671F6D434D1FCD72B910C17B6CBF /* Pods-Daro's-Chat-App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2C60A7B4B97771DFCB33486C522E4E5 /* Pods-Daro's-Chat-App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		880EBC79FF571F7CB8A956FF7A641511 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F8A929BDB6E633BE35459804508532F;
-			remoteInfo = CLTypingLabel;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		07672300080DB94A3A7E9D87B9A9297F /* CLTypingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLTypingLabel.release.xcconfig; sourceTree = "<group>"; };
-		0DAA9FDA48B06854B89A9C4CE710998D /* Pods-Daro's-Chat-App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Daro's-Chat-App-frameworks.sh"; sourceTree = "<group>"; };
-		267E216B5C8890C9A3EABC4944899E95 /* Pods-Daro's-Chat-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Daro's-Chat-App.release.xcconfig"; sourceTree = "<group>"; };
-		43807B5070A23075F4DCE0DB74F80A11 /* Pods-Daro's-Chat-App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Daro's-Chat-App-dummy.m"; sourceTree = "<group>"; };
-		53A38FF329F9D9D6FB50BCF397440FC6 /* Pods-Daro's-Chat-App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Daro's-Chat-App-Info.plist"; sourceTree = "<group>"; };
+		1C5143881C14775A29D2547004CED643 /* Pods-Daro's-Chat-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Daro's-Chat-App.debug.xcconfig"; sourceTree = "<group>"; };
+		56BA8CE7566E2180493C589786493035 /* Pods-Daro's-Chat-App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Daro's-Chat-App-Info.plist"; sourceTree = "<group>"; };
+		66CD0325156AB62A5049EA7364FA777D /* Pods-Daro's-Chat-App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Daro's-Chat-App-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7A42BC899FD84319FB00575D48163EE6 /* CLTypingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CLTypingLabel-dummy.m"; sourceTree = "<group>"; };
-		7C960689C9B0938D0A50949B30985509 /* CLTypingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CLTypingLabel.swift; path = Pod/Classes/CLTypingLabel.swift; sourceTree = "<group>"; };
-		81EF2928B5AE30D287990BF6C3B3562F /* CLTypingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLTypingLabel-prefix.pch"; sourceTree = "<group>"; };
-		8513A7569186E3572F5FD27EFE27D3E6 /* Pods-Daro's-Chat-App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Daro's-Chat-App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C449E5C40B28F3C4BE6C4568263BF42 /* Pods-Daro's-Chat-App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Daro's-Chat-App-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A14B3C788299AC37E17C0EEFE998EE16 /* CLTypingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CLTypingLabel.debug.xcconfig; sourceTree = "<group>"; };
-		A658A146AB5FCE6DEEB75D6368764572 /* Pods-Daro's-Chat-App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Daro's-Chat-App.modulemap"; sourceTree = "<group>"; };
-		AD44B03F013CF271605C5A4CB123933D /* CLTypingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CLTypingLabel-umbrella.h"; sourceTree = "<group>"; };
-		B0542A5624B5DE02B2C5350C79F8A878 /* CLTypingLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CLTypingLabel-Info.plist"; sourceTree = "<group>"; };
-		B83ADFD15C243CA3D5B029AE7CC9A0BF /* Pods-Daro's-Chat-App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Daro's-Chat-App-umbrella.h"; sourceTree = "<group>"; };
-		CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CLTypingLabel; path = CLTypingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5C7209DEA018C4293E1EAE3D31B95A0 /* CLTypingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CLTypingLabel.modulemap; sourceTree = "<group>"; };
-		F04621BF34348854B8231D5403120A31 /* Pods-Daro's-Chat-App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Daro's-Chat-App-acknowledgements.plist"; sourceTree = "<group>"; };
+		A952A285687A6F27E79C8EA698F68457 /* Pods-Daro's-Chat-App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Daro's-Chat-App-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2C60A7B4B97771DFCB33486C522E4E5 /* Pods-Daro's-Chat-App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Daro's-Chat-App-umbrella.h"; sourceTree = "<group>"; };
+		C5C3D56DF2B98AF8B0256DEB0BB0EB5B /* Pods-Daro's-Chat-App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Daro's-Chat-App.modulemap"; sourceTree = "<group>"; };
+		CB55136F80689A3C5CAE9769AE8BD0A8 /* Pods-Daro's-Chat-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Daro's-Chat-App.release.xcconfig"; sourceTree = "<group>"; };
 		F2A4A633DE77A16B2F27ED6D8416DB09 /* Pods-Daro's-Chat-App */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Daro's-Chat-App"; path = Pods_Daro_s_Chat_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FEDB3211A14A83699703CBA5BC9D58E5 /* Pods-Daro's-Chat-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Daro's-Chat-App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		48848003628701101494E561F2825532 /* Frameworks */ = {
+		8180F5B423AD9016380DD29F496B1EB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2A01F0F5504F2192BFDDFB1D9898512 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B93E3DAEBAEFE3A2FB1938A07B7A4B2F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B941A963520D0916875666545391E696 /* Foundation.framework in Frameworks */,
+				25F84C8FE80C0BA660B3248D71D71063 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37028AE61A50EB7D3EB8C9359D220C12 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A5AA89F3DAE9F0F90F7A987C13D331B /* Pods-Daro's-Chat-App */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,44 +54,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5E55343FE884A0C95A40DC8B7FBDD9F1 /* Pods-Daro's-Chat-App */ = {
+		9A5AA89F3DAE9F0F90F7A987C13D331B /* Pods-Daro's-Chat-App */ = {
 			isa = PBXGroup;
 			children = (
-				A658A146AB5FCE6DEEB75D6368764572 /* Pods-Daro's-Chat-App.modulemap */,
-				8513A7569186E3572F5FD27EFE27D3E6 /* Pods-Daro's-Chat-App-acknowledgements.markdown */,
-				F04621BF34348854B8231D5403120A31 /* Pods-Daro's-Chat-App-acknowledgements.plist */,
-				43807B5070A23075F4DCE0DB74F80A11 /* Pods-Daro's-Chat-App-dummy.m */,
-				0DAA9FDA48B06854B89A9C4CE710998D /* Pods-Daro's-Chat-App-frameworks.sh */,
-				53A38FF329F9D9D6FB50BCF397440FC6 /* Pods-Daro's-Chat-App-Info.plist */,
-				B83ADFD15C243CA3D5B029AE7CC9A0BF /* Pods-Daro's-Chat-App-umbrella.h */,
-				FEDB3211A14A83699703CBA5BC9D58E5 /* Pods-Daro's-Chat-App.debug.xcconfig */,
-				267E216B5C8890C9A3EABC4944899E95 /* Pods-Daro's-Chat-App.release.xcconfig */,
+				C5C3D56DF2B98AF8B0256DEB0BB0EB5B /* Pods-Daro's-Chat-App.modulemap */,
+				66CD0325156AB62A5049EA7364FA777D /* Pods-Daro's-Chat-App-acknowledgements.markdown */,
+				A952A285687A6F27E79C8EA698F68457 /* Pods-Daro's-Chat-App-acknowledgements.plist */,
+				9C449E5C40B28F3C4BE6C4568263BF42 /* Pods-Daro's-Chat-App-dummy.m */,
+				56BA8CE7566E2180493C589786493035 /* Pods-Daro's-Chat-App-Info.plist */,
+				B2C60A7B4B97771DFCB33486C522E4E5 /* Pods-Daro's-Chat-App-umbrella.h */,
+				1C5143881C14775A29D2547004CED643 /* Pods-Daro's-Chat-App.debug.xcconfig */,
+				CB55136F80689A3C5CAE9769AE8BD0A8 /* Pods-Daro's-Chat-App.release.xcconfig */,
 			);
 			name = "Pods-Daro's-Chat-App";
 			path = "Target Support Files/Pods-Daro's-Chat-App";
-			sourceTree = "<group>";
-		};
-		7E44DF5634767B191D728D975395B770 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5E55343FE884A0C95A40DC8B7FBDD9F1 /* Pods-Daro's-Chat-App */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AFC3D31ED54F53BF4A8BC448129532ED /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D5C7209DEA018C4293E1EAE3D31B95A0 /* CLTypingLabel.modulemap */,
-				7A42BC899FD84319FB00575D48163EE6 /* CLTypingLabel-dummy.m */,
-				B0542A5624B5DE02B2C5350C79F8A878 /* CLTypingLabel-Info.plist */,
-				81EF2928B5AE30D287990BF6C3B3562F /* CLTypingLabel-prefix.pch */,
-				AD44B03F013CF271605C5A4CB123933D /* CLTypingLabel-umbrella.h */,
-				A14B3C788299AC37E17C0EEFE998EE16 /* CLTypingLabel.debug.xcconfig */,
-				07672300080DB94A3A7E9D87B9A9297F /* CLTypingLabel.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CLTypingLabel";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -123,9 +75,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E5728BA1B8CEEB3143CA35A236294C2C /* Pods */,
-				F2F94B96DA238F93C98B241146A82A8D /* Products */,
-				7E44DF5634767B191D728D975395B770 /* Targets Support Files */,
+				E6F536FA88166C97AACC1584E810ED0A /* Products */,
+				37028AE61A50EB7D3EB8C9359D220C12 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,86 +88,40 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E5728BA1B8CEEB3143CA35A236294C2C /* Pods */ = {
+		E6F536FA88166C97AACC1584E810ED0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F50BBCA84C4709AF15E302F2BDC0566D /* CLTypingLabel */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F2F94B96DA238F93C98B241146A82A8D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel */,
 				F2A4A633DE77A16B2F27ED6D8416DB09 /* Pods-Daro's-Chat-App */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F50BBCA84C4709AF15E302F2BDC0566D /* CLTypingLabel */ = {
-			isa = PBXGroup;
-			children = (
-				7C960689C9B0938D0A50949B30985509 /* CLTypingLabel.swift */,
-				AFC3D31ED54F53BF4A8BC448129532ED /* Support Files */,
-			);
-			name = CLTypingLabel;
-			path = CLTypingLabel;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D275CA89F5DD8CD924CDCE265C7B54A5 /* Headers */ = {
+		50D7DDB35257ECE0D387B94014BD1643 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D2FC53B4837E9FED51200C321D9420C /* CLTypingLabel-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EBC29B1FFC6852E33108847103AD3AA0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5CDDF3E08D69384B640474F37932296 /* Pods-Daro's-Chat-App-umbrella.h in Headers */,
+				D79C671F6D434D1FCD72B910C17B6CBF /* Pods-Daro's-Chat-App-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4DE7FF6FC7102AF47081FF2B49E8E1E9 /* Build configuration list for PBXNativeTarget "CLTypingLabel" */;
-			buildPhases = (
-				D275CA89F5DD8CD924CDCE265C7B54A5 /* Headers */,
-				131C50C6A0C4B4B7AF5E8EA504C8F4A5 /* Sources */,
-				48848003628701101494E561F2825532 /* Frameworks */,
-				84A72A200C69980E5EBD1C2537106D4A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CLTypingLabel;
-			productName = CLTypingLabel;
-			productReference = CE8765B3053874E73AFDC78B5D6B4396 /* CLTypingLabel */;
-			productType = "com.apple.product-type.framework";
-		};
 		D8F36A6390F3DF5DFC97427749718504 /* Pods-Daro's-Chat-App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 45B8E2551C0A6236E794EDC35212A000 /* Build configuration list for PBXNativeTarget "Pods-Daro's-Chat-App" */;
+			buildConfigurationList = FAFC7B0FA92DE01FB2C0ABC21BB29FB2 /* Build configuration list for PBXNativeTarget "Pods-Daro's-Chat-App" */;
 			buildPhases = (
-				EBC29B1FFC6852E33108847103AD3AA0 /* Headers */,
-				2C542E3B6CE0B82901323F36340E5EA3 /* Sources */,
-				B93E3DAEBAEFE3A2FB1938A07B7A4B2F /* Frameworks */,
-				F5D2B63B94D4A616D5D3E90B1CA05CB3 /* Resources */,
+				50D7DDB35257ECE0D387B94014BD1643 /* Headers */,
+				42FE2A16E5A380446938D30E00DE4320 /* Sources */,
+				8180F5B423AD9016380DD29F496B1EB5 /* Frameworks */,
+				B1CA15D937B7243AA9953A87313E173B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FED2A9C27C4163674545CE03A781D6C5 /* PBXTargetDependency */,
 			);
 			name = "Pods-Daro's-Chat-App";
 			productName = Pods_Daro_s_Chat_App;
@@ -241,25 +146,17 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F2F94B96DA238F93C98B241146A82A8D /* Products */;
+			productRefGroup = E6F536FA88166C97AACC1584E810ED0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */,
 				D8F36A6390F3DF5DFC97427749718504 /* Pods-Daro's-Chat-App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84A72A200C69980E5EBD1C2537106D4A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5D2B63B94D4A616D5D3E90B1CA05CB3 /* Resources */ = {
+		B1CA15D937B7243AA9953A87313E173B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,36 +166,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		131C50C6A0C4B4B7AF5E8EA504C8F4A5 /* Sources */ = {
+		42FE2A16E5A380446938D30E00DE4320 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5843936956336D732E73AFA5EEAB889 /* CLTypingLabel.swift in Sources */,
-				39719A162A81897C508459B0098E29BE /* CLTypingLabel-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2C542E3B6CE0B82901323F36340E5EA3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				49923046619B9CAAFB7637D029C285FA /* Pods-Daro's-Chat-App-dummy.m in Sources */,
+				3FCF4AA2E0CDFB5305CD99F99876F4A3 /* Pods-Daro's-Chat-App-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		FED2A9C27C4163674545CE03A781D6C5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CLTypingLabel;
-			target = 6F8A929BDB6E633BE35459804508532F /* CLTypingLabel */;
-			targetProxy = 880EBC79FF571F7CB8A956FF7A641511 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+		3357721076EFAF6BBBD6557055026396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5143881C14775A29D2547004CED643 /* Pods-Daro's-Chat-App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Daro's-Chat-App/Pods-Daro's-Chat-App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Daro's-Chat-App/Pods-Daro's-Chat-App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -351,7 +267,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -364,114 +280,7 @@
 			};
 			name = Debug;
 		};
-		78AF69BE71FCD8FA3E3C627EBBEEC568 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A14B3C788299AC37E17C0EEFE998EE16 /* CLTypingLabel.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CLTypingLabel/CLTypingLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel.modulemap";
-				PRODUCT_MODULE_NAME = CLTypingLabel;
-				PRODUCT_NAME = CLTypingLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		811DE803E19D9F9BFC295C9B4CE034CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 267E216B5C8890C9A3EABC4944899E95 /* Pods-Daro's-Chat-App.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Daro's-Chat-App/Pods-Daro's-Chat-App-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Daro's-Chat-App/Pods-Daro's-Chat-App.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		860E3E96D73BBD2B44C73B55BF3A62E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FEDB3211A14A83699703CBA5BC9D58E5 /* Pods-Daro's-Chat-App.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Daro's-Chat-App/Pods-Daro's-Chat-App-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Daro's-Chat-App/Pods-Daro's-Chat-App.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -521,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -533,10 +342,12 @@
 			};
 			name = Release;
 		};
-		D789491B4B3DAE867BB14CBB7811274E /* Release */ = {
+		B153A41884B7ACEA8365F379248A2449 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07672300080DB94A3A7E9D87B9A9297F /* CLTypingLabel.release.xcconfig */;
+			baseConfigurationReference = CB55136F80689A3C5CAE9769AE8BD0A8 /* Pods-Daro's-Chat-App.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -545,22 +356,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CLTypingLabel/CLTypingLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Daro's-Chat-App/Pods-Daro's-Chat-App-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/CLTypingLabel/CLTypingLabel.modulemap";
-				PRODUCT_MODULE_NAME = CLTypingLabel;
-				PRODUCT_NAME = CLTypingLabel;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Daro's-Chat-App/Pods-Daro's-Chat-App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -571,29 +383,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		45B8E2551C0A6236E794EDC35212A000 /* Build configuration list for PBXNativeTarget "Pods-Daro's-Chat-App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				860E3E96D73BBD2B44C73B55BF3A62E4 /* Debug */,
-				811DE803E19D9F9BFC295C9B4CE034CF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
-				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DE7FF6FC7102AF47081FF2B49E8E1E9 /* Build configuration list for PBXNativeTarget "CLTypingLabel" */ = {
+		FAFC7B0FA92DE01FB2C0ABC21BB29FB2 /* Build configuration list for PBXNativeTarget "Pods-Daro's-Chat-App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				78AF69BE71FCD8FA3E3C627EBBEEC568 /* Debug */,
-				D789491B4B3DAE867BB14CBB7811274E /* Release */,
+				3357721076EFAF6BBBD6557055026396 /* Debug */,
+				B153A41884B7ACEA8365F379248A2449 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
