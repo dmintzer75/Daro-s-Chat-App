@@ -30,7 +30,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/dmintzer75/Daro-s-Chat-App">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="Daro's-Chat-App/Assets.xcassets/AppIcon.appiconset/1024.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Daro's Chat App</h3>
@@ -83,7 +83,9 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
-
+  <a href="https://github.com/dmintzer75/Daro-s-Chat-App">
+    <img src="Daro's-Chat-App/images/first_screen.png" alt="Logo" width="80" height="80">
+  </a>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -184,7 +186,9 @@ Don't forget to give the project a star! Thanks again!
 ## License
 
 Distributed under the MINTZ License. See `LICENSE.txt` for more information.
-
+  <a href="https://github.com/dmintzer75/Daro-s-Chat-App">
+    <img src="Daro's-Chat-App/images/launch_screen.pdf" alt="Logo" width="80" height="80">
+  </a>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -224,5 +228,5 @@ Project Link: [https://github.com/dmintzer75/Daro-s-Chat-App](https://github.com
 [license-shield]: https://img.shields.io/github/license/dmintzer75/Daro-s-Chat-App.svg?style=for-the-badge
 [license-url]: https://github.com/dmintzer75/Daro-s-Chat-App/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://linkedin.com/in/dario-mintzer
 [product-screenshot]: images/screenshot.png
