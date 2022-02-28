@@ -84,7 +84,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
   <a href="https://github.com/dmintzer75/Daro-s-Chat-App">
-    <img src="Daro's-Chat-App/images/first_screen.png" alt="first_screen" width="50%" height="50%">
+    <img src="Daro's-Chat-App/images/first_screen.png" alt="first_screen" width=50% height=50%>
   </a>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -182,10 +182,16 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MINTZ License. See `LICENSE.txt` for more information.
+<br />
+<div align="center">
   <a href="https://github.com/dmintzer75/Daro-s-Chat-App">
-    <img src="Daro's-Chat-App/images/launch_screen.png" alt="launch_screen" width="200" height="200">
+    <img src="Daro's-Chat-App/images/launch_screen.png" alt="Logo" width="200" height="200">
   </a>
+  <p align="left">
+    Distributed under the MINTZ License. See `LICENSE.txt` for more information.
+  </p>
+</div>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
