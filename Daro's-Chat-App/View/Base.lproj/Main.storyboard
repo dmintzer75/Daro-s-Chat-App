@@ -130,19 +130,6 @@
                                     <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="3CH-rK-PE5">
                                         <rect key="frame" x="0.0" y="5" width="414" height="181"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ei-16-hjz">
-                                        <rect key="frame" x="100" y="142.5" width="214" height="44"/>
-                                        <color key="backgroundColor" name="BrandPink"/>
-                                        <color key="tintColor" name="BrandPink"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Register">
-                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
-                                            <color key="baseBackgroundColor" name="BrandPink"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <action selector="registerPressed:" destination="Wto-W4-Wqy" eventType="touchUpInside" id="85p-HT-6Go"/>
-                                        </connections>
-                                    </button>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Oq-W6-a90" userLabel="Password Textfield">
                                         <rect key="frame" x="96" y="65" width="223" height="35"/>
                                         <color key="textColor" name="BrandPink"/>
@@ -151,30 +138,52 @@
                                     </textField>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="8ei-16-hjz" secondAttribute="bottom" constant="-9.5" id="1Qh-wF-YU3"/>
                                     <constraint firstAttribute="height" constant="177" id="71w-QJ-til"/>
                                     <constraint firstItem="6Oq-W6-a90" firstAttribute="leading" secondItem="9id-4A-yQd" secondAttribute="leading" constant="96" id="7ZS-eL-PDY"/>
-                                    <constraint firstAttribute="trailing" secondItem="8ei-16-hjz" secondAttribute="trailing" constant="100" id="9zf-sY-H43"/>
                                     <constraint firstAttribute="trailing" secondItem="6Oq-W6-a90" secondAttribute="trailing" constant="95" id="B02-bp-e3L"/>
                                     <constraint firstItem="3CH-rK-PE5" firstAttribute="leading" secondItem="9id-4A-yQd" secondAttribute="leading" id="DK4-z6-DBZ"/>
-                                    <constraint firstItem="8ei-16-hjz" firstAttribute="leading" secondItem="9id-4A-yQd" secondAttribute="leading" constant="100" id="E73-nD-LEb"/>
-                                    <constraint firstItem="8ei-16-hjz" firstAttribute="top" secondItem="3CH-rK-PE5" secondAttribute="bottom" constant="-43.5" id="JXm-jy-5Ww"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="epO-s2-Okx"/>
                                     <constraint firstItem="3CH-rK-PE5" firstAttribute="top" secondItem="9id-4A-yQd" secondAttribute="top" constant="5" id="hlb-Pr-sj3"/>
                                     <constraint firstAttribute="bottom" secondItem="3CH-rK-PE5" secondAttribute="bottom" constant="-9" id="iG9-OC-2iS"/>
-                                    <constraint firstItem="8ei-16-hjz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9id-4A-yQd" secondAttribute="leading" constant="20" symbolic="YES" id="qUx-MK-Vzf"/>
                                     <constraint firstAttribute="trailing" secondItem="3CH-rK-PE5" secondAttribute="trailing" id="tt8-nO-cuM"/>
                                     <constraint firstItem="6Oq-W6-a90" firstAttribute="top" secondItem="9id-4A-yQd" secondAttribute="top" constant="65" id="zg7-oj-3Us"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ei-16-hjz">
+                                <rect key="frame" x="100" y="813.5" width="214" height="48.5"/>
+                                <color key="backgroundColor" name="BrandPink"/>
+                                <color key="tintColor" name="BrandPink"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Register">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                    <color key="baseBackgroundColor" name="BrandPink"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="registerPressed:" destination="Wto-W4-Wqy" eventType="touchUpInside" id="85p-HT-6Go"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daro's Chat" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJV-GQ-1iB" userLabel="Title Label">
+                                <rect key="frame" x="30.5" y="713.5" width="353" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="HSL-X5-NfF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="70"/>
+                                <color key="textColor" name="BrandPink"/>
+                                <color key="highlightedColor" name="BrandLightPink"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JL7-E3-p4i"/>
                         <color key="backgroundColor" name="BrandLightPink"/>
                         <constraints>
+                            <constraint firstItem="8ei-16-hjz" firstAttribute="top" secondItem="NJV-GQ-1iB" secondAttribute="bottom" constant="20" id="5xS-2S-heG"/>
                             <constraint firstItem="xWf-b7-5bV" firstAttribute="trailing" secondItem="JL7-E3-p4i" secondAttribute="trailing" id="AN6-IC-QWd"/>
                             <constraint firstItem="9id-4A-yQd" firstAttribute="leading" secondItem="Dic-Gm-v8E" secondAttribute="leading" id="HHq-td-EPV"/>
+                            <constraint firstItem="JL7-E3-p4i" firstAttribute="trailing" secondItem="8ei-16-hjz" secondAttribute="trailing" constant="100" id="HgY-iz-Skz"/>
                             <constraint firstAttribute="trailing" secondItem="9id-4A-yQd" secondAttribute="trailing" id="L7K-Ah-Kdn"/>
+                            <constraint firstItem="JL7-E3-p4i" firstAttribute="bottom" secondItem="8ei-16-hjz" secondAttribute="bottom" id="Nuc-qa-CqK"/>
                             <constraint firstItem="9id-4A-yQd" firstAttribute="top" secondItem="xWf-b7-5bV" secondAttribute="bottom" constant="-90" id="PMJ-B2-Jlz"/>
+                            <constraint firstItem="8ei-16-hjz" firstAttribute="leading" secondItem="JL7-E3-p4i" secondAttribute="leading" constant="100" id="Whn-Z0-uRs"/>
+                            <constraint firstItem="NJV-GQ-1iB" firstAttribute="centerX" secondItem="8ei-16-hjz" secondAttribute="centerX" id="kHd-ve-8Rk"/>
                             <constraint firstItem="xWf-b7-5bV" firstAttribute="top" secondItem="JL7-E3-p4i" secondAttribute="top" id="wTy-Sw-kSO"/>
                             <constraint firstItem="xWf-b7-5bV" firstAttribute="leading" secondItem="JL7-E3-p4i" secondAttribute="leading" id="zg9-0J-drZ"/>
                         </constraints>
@@ -231,20 +240,6 @@
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="W11-az-GKC">
                                         <rect key="frame" x="0.0" y="5" width="414" height="181"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8b-tj-73I">
-                                        <rect key="frame" x="100" y="142.5" width="214" height="44"/>
-                                        <color key="backgroundColor" name="BrandPink"/>
-                                        <color key="tintColor" name="BrandPink"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Log In">
-                                            <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
-                                            <color key="baseForegroundColor" name="BrandPink"/>
-                                            <color key="baseBackgroundColor" name="BrandLightPink"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <action selector="loginPressed:" destination="ubV-oy-9uv" eventType="touchUpInside" id="uMX-Ch-ybN"/>
-                                        </connections>
-                                    </button>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5mP-VF-o8M" userLabel="Password Textfield">
                                         <rect key="frame" x="96" y="65" width="223" height="35"/>
                                         <color key="textColor" name="BrandPink"/>
@@ -256,17 +251,36 @@
                                     <constraint firstItem="W11-az-GKC" firstAttribute="leading" secondItem="zbV-FL-u3d" secondAttribute="leading" id="9Cf-R1-IMz"/>
                                     <constraint firstItem="5mP-VF-o8M" firstAttribute="leading" secondItem="zbV-FL-u3d" secondAttribute="leading" constant="96" id="Bwa-A9-FJJ"/>
                                     <constraint firstItem="W11-az-GKC" firstAttribute="top" secondItem="zbV-FL-u3d" secondAttribute="top" constant="5" id="H6c-FX-jk9"/>
-                                    <constraint firstItem="s8b-tj-73I" firstAttribute="leading" secondItem="zbV-FL-u3d" secondAttribute="leading" constant="100" id="Jf8-l7-KHf"/>
                                     <constraint firstAttribute="height" constant="177" id="M0m-ge-ceC"/>
-                                    <constraint firstAttribute="trailing" secondItem="s8b-tj-73I" secondAttribute="trailing" constant="100" id="Sr8-hX-QIr"/>
                                     <constraint firstAttribute="trailing" secondItem="W11-az-GKC" secondAttribute="trailing" id="d0C-Hq-Hc4"/>
                                     <constraint firstAttribute="trailing" secondItem="5mP-VF-o8M" secondAttribute="trailing" constant="95" id="eCq-1J-7dV"/>
                                     <constraint firstAttribute="bottom" secondItem="W11-az-GKC" secondAttribute="bottom" constant="-9" id="nMj-cO-KkP"/>
-                                    <constraint firstItem="s8b-tj-73I" firstAttribute="top" secondItem="W11-az-GKC" secondAttribute="bottom" constant="-43.5" id="qG7-4F-1bt"/>
-                                    <constraint firstAttribute="bottom" secondItem="s8b-tj-73I" secondAttribute="bottom" constant="-9.5" id="ugf-gH-Yu5"/>
                                     <constraint firstItem="5mP-VF-o8M" firstAttribute="top" secondItem="zbV-FL-u3d" secondAttribute="top" constant="65" id="uwa-vH-AYb"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s8b-tj-73I">
+                                <rect key="frame" x="100" y="813.5" width="214" height="48.5"/>
+                                <color key="backgroundColor" name="BrandPink"/>
+                                <color key="tintColor" name="BrandPink"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Log In">
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="30"/>
+                                    <color key="baseForegroundColor" name="BrandPink"/>
+                                    <color key="baseBackgroundColor" name="BrandLightPink"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="loginPressed:" destination="ubV-oy-9uv" eventType="touchUpInside" id="uMX-Ch-ybN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daro's Chat" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8mp-Kc-Cei" userLabel="Title Label">
+                                <rect key="frame" x="30.5" y="713.5" width="353" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Wgp-AL-yBH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="70"/>
+                                <color key="textColor" name="BrandLightPink"/>
+                                <color key="highlightedColor" name="BrandLightPink"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mt7-5b-Ryd"/>
                         <color key="backgroundColor" name="BrandPink"/>
@@ -274,9 +288,15 @@
                             <constraint firstItem="zbV-FL-u3d" firstAttribute="leading" secondItem="3k3-xZ-lhj" secondAttribute="leading" id="1YQ-1A-fcU"/>
                             <constraint firstItem="OGf-cd-P00" firstAttribute="trailing" secondItem="Mt7-5b-Ryd" secondAttribute="trailing" id="2ya-8i-XZG"/>
                             <constraint firstItem="OGf-cd-P00" firstAttribute="leading" secondItem="Mt7-5b-Ryd" secondAttribute="leading" id="59s-gU-irY"/>
+                            <constraint firstItem="Mt7-5b-Ryd" firstAttribute="bottom" secondItem="s8b-tj-73I" secondAttribute="bottom" id="7Eh-j7-kp6"/>
+                            <constraint firstItem="s8b-tj-73I" firstAttribute="top" secondItem="8mp-Kc-Cei" secondAttribute="bottom" constant="20" id="7qq-Tv-nxl"/>
+                            <constraint firstItem="8mp-Kc-Cei" firstAttribute="centerX" secondItem="s8b-tj-73I" secondAttribute="centerX" id="Aqu-Qh-KR2"/>
                             <constraint firstAttribute="trailing" secondItem="zbV-FL-u3d" secondAttribute="trailing" id="E77-43-pAS"/>
                             <constraint firstItem="OGf-cd-P00" firstAttribute="top" secondItem="Mt7-5b-Ryd" secondAttribute="top" id="SkG-Ap-b64"/>
+                            <constraint firstItem="s8b-tj-73I" firstAttribute="leading" secondItem="Mt7-5b-Ryd" secondAttribute="leading" constant="100" id="Spx-da-xaW"/>
                             <constraint firstItem="zbV-FL-u3d" firstAttribute="top" secondItem="OGf-cd-P00" secondAttribute="bottom" constant="-90" id="huR-D7-l9s"/>
+                            <constraint firstItem="Mt7-5b-Ryd" firstAttribute="trailing" secondItem="s8b-tj-73I" secondAttribute="trailing" constant="100" id="jaF-Fp-Jff"/>
+                            <constraint firstItem="s8b-tj-73I" firstAttribute="centerX" secondItem="3k3-xZ-lhj" secondAttribute="centerX" id="w9s-Tq-Vx7"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jQ3-Ux-21f"/>
@@ -392,7 +412,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qTP-oA-GBb"/>
+        <segue reference="ueL-Cj-OEG"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BackgroundImage" width="375" height="375"/>
