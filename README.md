@@ -82,9 +82,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]
   <a href="https://github.com/dmintzer75/Daro-s-Chat-App">
-    <img src="Daro's-Chat-App/images/first_screen.png" alt="first_screen" width="200" height="600">
+    <img src="Daro's-Chat-App/images/first_screen.png" alt="first_screen" width="200" height="400">
   </a>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
