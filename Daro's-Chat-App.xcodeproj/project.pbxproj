@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7955D96F27B6BBF300E80465 /* daro-chat-backg.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7955D96E27B6BBF300E80465 /* daro-chat-backg.pdf */; };
+		7920A76F27C95A8E006D3A6A /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920A76D27C95A8E006D3A6A /* MessageCell.swift */; };
+		7920A77027C95A8E006D3A6A /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7920A76E27C95A8E006D3A6A /* MessageCell.xib */; };
+		792FB0D427B6F4560065D340 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 792FB0D327B6F4560065D340 /* GoogleService-Info.plist */; };
+		792FB0D727B6F75E0065D340 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 792FB0D627B6F75E0065D340 /* FirebaseAuth */; };
+		792FB0D927B6F75E0065D340 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 792FB0D827B6F75E0065D340 /* FirebaseFirestore */; };
+		7952CB6027BBAA2300047CF8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952CB5F27BBAA2300047CF8 /* Message.swift */; };
 		799D8F3427AA91E1007DC7B7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799D8F3327AA91E1007DC7B7 /* RegisterViewController.swift */; };
 		799D8F3627AA928E007DC7B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799D8F3527AA928E007DC7B7 /* LoginViewController.swift */; };
 		799D8F3827AA92AC007DC7B7 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799D8F3727AA92AC007DC7B7 /* ChatViewController.swift */; };
@@ -17,13 +22,15 @@
 		79A6720627A813E200954B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A6720427A813E200954B8E /* Main.storyboard */; };
 		79A6720827A813E300954B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A6720727A813E300954B8E /* Assets.xcassets */; };
 		79A6720B27A813E300954B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A6720927A813E300954B8E /* LaunchScreen.storyboard */; };
-		79A6721327A8145A00954B8E /* DM-Launch-Screen.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 79A6721227A8145A00954B8E /* DM-Launch-Screen.pdf */; };
-		C1A563196251ECF6507F0099 /* Pods_Daro_s_Chat_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC61564178C0A2284CF513E /* Pods_Daro_s_Chat_App.framework */; };
+		79ED10B127BAF94100FD4446 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ED10B027BAF94100FD4446 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7912893827B1ABE300FDD4B8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7955D96E27B6BBF300E80465 /* daro-chat-backg.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "daro-chat-backg.pdf"; sourceTree = "<group>"; };
+		7920A76D27C95A8E006D3A6A /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		7920A76E27C95A8E006D3A6A /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		792FB0D327B6F4560065D340 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7952CB5F27BBAA2300047CF8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		799D8F3327AA91E1007DC7B7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		799D8F3527AA928E007DC7B7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		799D8F3727AA92AC007DC7B7 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -35,10 +42,7 @@
 		79A6720727A813E300954B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79A6720A27A813E300954B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79A6720C27A813E400954B8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79A6721227A8145A00954B8E /* DM-Launch-Screen.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "DM-Launch-Screen.pdf"; path = "../../DM-Launch-Screen.pdf"; sourceTree = "<group>"; };
-		A9479C1D6A354F946C53D805 /* Pods-Daro's-Chat-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daro's-Chat-App.release.xcconfig"; path = "Target Support Files/Pods-Daro's-Chat-App/Pods-Daro's-Chat-App.release.xcconfig"; sourceTree = "<group>"; };
-		BDC61564178C0A2284CF513E /* Pods_Daro_s_Chat_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daro_s_Chat_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C905B8C7C6BAFF6E59415A74 /* Pods-Daro's-Chat-App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daro's-Chat-App.debug.xcconfig"; path = "Target Support Files/Pods-Daro's-Chat-App/Pods-Daro's-Chat-App.debug.xcconfig"; sourceTree = "<group>"; };
+		79ED10B027BAF94100FD4446 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,27 +50,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1A563196251ECF6507F0099 /* Pods_Daro_s_Chat_App.framework in Frameworks */,
+				792FB0D727B6F75E0065D340 /* FirebaseAuth in Frameworks */,
+				792FB0D927B6F75E0065D340 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E641B4BEC94578B8C515130 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C905B8C7C6BAFF6E59415A74 /* Pods-Daro's-Chat-App.debug.xcconfig */,
-				A9479C1D6A354F946C53D805 /* Pods-Daro's-Chat-App.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		799D8F3027AA9190007DC7B7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				79A671FE27A813E200954B8E /* AppDelegate.swift */,
-				79A6720027A813E200954B8E /* SceneDelegate.swift */,
+				7952CB5F27BBAA2300047CF8 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -76,6 +71,8 @@
 			children = (
 				79A6720927A813E300954B8E /* LaunchScreen.storyboard */,
 				79A6720427A813E200954B8E /* Main.storyboard */,
+				7920A76D27C95A8E006D3A6A /* MessageCell.swift */,
+				7920A76E27C95A8E006D3A6A /* MessageCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,8 +94,6 @@
 				7912893827B1ABE300FDD4B8 /* README.md */,
 				79A671FD27A813E200954B8E /* Daro's-Chat-App */,
 				79A671FC27A813E200954B8E /* Products */,
-				2E641B4BEC94578B8C515130 /* Pods */,
-				F82810C63E5CE311EBBE3B52 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,23 +108,17 @@
 		79A671FD27A813E200954B8E /* Daro's-Chat-App */ = {
 			isa = PBXGroup;
 			children = (
+				79A671FE27A813E200954B8E /* AppDelegate.swift */,
+				79A6720027A813E200954B8E /* SceneDelegate.swift */,
 				799D8F3027AA9190007DC7B7 /* Model */,
 				799D8F3127AA9196007DC7B7 /* View */,
 				799D8F3227AA919C007DC7B7 /* Controller */,
 				79A6720727A813E300954B8E /* Assets.xcassets */,
 				79A6720C27A813E400954B8E /* Info.plist */,
-				79A6721227A8145A00954B8E /* DM-Launch-Screen.pdf */,
-				7955D96E27B6BBF300E80465 /* daro-chat-backg.pdf */,
+				792FB0D327B6F4560065D340 /* GoogleService-Info.plist */,
+				79ED10B027BAF94100FD4446 /* Constants.swift */,
 			);
 			path = "Daro's-Chat-App";
-			sourceTree = "<group>";
-		};
-		F82810C63E5CE311EBBE3B52 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BDC61564178C0A2284CF513E /* Pods_Daro_s_Chat_App.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +128,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79A6720F27A813E400954B8E /* Build configuration list for PBXNativeTarget "Daro's-Chat-App" */;
 			buildPhases = (
-				02417A03B435405FF1BE8195 /* [CP] Check Pods Manifest.lock */,
 				79A671F727A813E200954B8E /* Sources */,
 				79A671F827A813E200954B8E /* Frameworks */,
 				79A671F927A813E200954B8E /* Resources */,
@@ -149,6 +137,10 @@
 			dependencies = (
 			);
 			name = "Daro's-Chat-App";
+			packageProductDependencies = (
+				792FB0D627B6F75E0065D340 /* FirebaseAuth */,
+				792FB0D827B6F75E0065D340 /* FirebaseFirestore */,
+			);
 			productName = "Daro's-Chat-App";
 			productReference = 79A671FB27A813E200954B8E /* Daro's-Chat-App.app */;
 			productType = "com.apple.product-type.application";
@@ -177,6 +169,9 @@
 				Base,
 			);
 			mainGroup = 79A671F227A813E200954B8E;
+			packageReferences = (
+				792FB0D527B6F75E0065D340 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 79A671FC27A813E200954B8E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -191,40 +186,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7920A77027C95A8E006D3A6A /* MessageCell.xib in Resources */,
 				79A6720B27A813E300954B8E /* LaunchScreen.storyboard in Resources */,
 				79A6720827A813E300954B8E /* Assets.xcassets in Resources */,
-				79A6721327A8145A00954B8E /* DM-Launch-Screen.pdf in Resources */,
 				79A6720627A813E200954B8E /* Main.storyboard in Resources */,
-				7955D96F27B6BBF300E80465 /* daro-chat-backg.pdf in Resources */,
+				792FB0D427B6F4560065D340 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		02417A03B435405FF1BE8195 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Daro's-Chat-App-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		79A671F727A813E200954B8E /* Sources */ = {
@@ -235,8 +205,11 @@
 				79A671FF27A813E200954B8E /* AppDelegate.swift in Sources */,
 				79A6720127A813E200954B8E /* SceneDelegate.swift in Sources */,
 				799D8F3627AA928E007DC7B7 /* LoginViewController.swift in Sources */,
+				79ED10B127BAF94100FD4446 /* Constants.swift in Sources */,
+				7952CB6027BBAA2300047CF8 /* Message.swift in Sources */,
 				799D8F3827AA92AC007DC7B7 /* ChatViewController.swift in Sources */,
 				799D8F3427AA91E1007DC7B7 /* RegisterViewController.swift in Sources */,
+				7920A76F27C95A8E006D3A6A /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +353,6 @@
 		};
 		79A6721027A813E400954B8E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C905B8C7C6BAFF6E59415A74 /* Pods-Daro's-Chat-App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -409,7 +381,6 @@
 		};
 		79A6721127A813E400954B8E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9479C1D6A354F946C53D805 /* Pods-Daro's-Chat-App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +429,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		792FB0D527B6F75E0065D340 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		792FB0D627B6F75E0065D340 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 792FB0D527B6F75E0065D340 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		792FB0D827B6F75E0065D340 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 792FB0D527B6F75E0065D340 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79A671F327A813E200954B8E /* Project object */;
 }

@@ -18,12 +18,12 @@ class WelcomeViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         titleLabel.text = ""
-        let titleText = "Daro's Chat"
+        let titleText = K.appName
         var charIndex = 0.0
         
         for letter in titleText {
             
-            Timer.scheduledTimer(withTimeInterval: 0.2 * charIndex, repeats: false) { timer in
+            Timer.scheduledTimer(withTimeInterval: 0.15 * charIndex, repeats: false) { timer in
                 self.titleLabel.text?.append(letter)
             }
             
