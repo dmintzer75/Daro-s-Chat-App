@@ -84,7 +84,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
   <a href="https://github.com/dmintzer75/Daro-s-Chat-App">
-    <img src="Daro's-Chat-App/images/first_screen.png" alt="first_screen">
+    <img src="Daro's-Chat-App/images/first_screen.png" alt="first_screen" width="50%" height="50%">
   </a>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -184,7 +184,7 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MINTZ License. See `LICENSE.txt` for more information.
   <a href="https://github.com/dmintzer75/Daro-s-Chat-App">
-    <img src="Daro's-Chat-App/images/launch_screen.png" alt="launch_screen">
+    <img src="Daro's-Chat-App/images/launch_screen.png" alt="launch_screen" width="200" height="200">
   </a>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -193,7 +193,7 @@ Distributed under the MINTZ License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - dmintzer75@hotmail.com
+Dario Mintzer - dmintzer75@hotmail.com
 
 Project Link: [https://github.com/dmintzer75/Daro-s-Chat-App](https://github.com/dmintzer75/Daro-s-Chat-App)
 
