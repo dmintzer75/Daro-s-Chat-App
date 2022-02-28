@@ -12,8 +12,8 @@
 		792FB0D427B6F4560065D340 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 792FB0D327B6F4560065D340 /* GoogleService-Info.plist */; };
 		792FB0D727B6F75E0065D340 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 792FB0D627B6F75E0065D340 /* FirebaseAuth */; };
 		792FB0D927B6F75E0065D340 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 792FB0D827B6F75E0065D340 /* FirebaseFirestore */; };
-		794585AC27CD42F900848799 /* launch_screen.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 794585AA27CD42F900848799 /* launch_screen.pdf */; };
 		794585AD27CD42F900848799 /* first_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 794585AB27CD42F900848799 /* first_screen.png */; };
+		794585AF27CD44AA00848799 /* launch_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 794585AE27CD44AA00848799 /* launch_screen.png */; };
 		7952CB6027BBAA2300047CF8 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7952CB5F27BBAA2300047CF8 /* Message.swift */; };
 		799D8F3427AA91E1007DC7B7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799D8F3327AA91E1007DC7B7 /* RegisterViewController.swift */; };
 		799D8F3627AA928E007DC7B7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799D8F3527AA928E007DC7B7 /* LoginViewController.swift */; };
@@ -32,8 +32,8 @@
 		7920A76D27C95A8E006D3A6A /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		7920A76E27C95A8E006D3A6A /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		792FB0D327B6F4560065D340 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		794585AA27CD42F900848799 /* launch_screen.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = launch_screen.pdf; sourceTree = "<group>"; };
 		794585AB27CD42F900848799 /* first_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first_screen.png; sourceTree = "<group>"; };
+		794585AE27CD44AA00848799 /* launch_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_screen.png; sourceTree = "<group>"; };
 		7952CB5F27BBAA2300047CF8 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		799D8F3327AA91E1007DC7B7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		799D8F3527AA928E007DC7B7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		794585A927CD42F900848799 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				794585AA27CD42F900848799 /* launch_screen.pdf */,
+				794585AE27CD44AA00848799 /* launch_screen.png */,
 				794585AB27CD42F900848799 /* first_screen.png */,
 			);
 			path = images;
@@ -203,10 +203,10 @@
 				7920A77027C95A8E006D3A6A /* MessageCell.xib in Resources */,
 				79A6720B27A813E300954B8E /* LaunchScreen.storyboard in Resources */,
 				79A6720827A813E300954B8E /* Assets.xcassets in Resources */,
-				794585AC27CD42F900848799 /* launch_screen.pdf in Resources */,
 				794585AD27CD42F900848799 /* first_screen.png in Resources */,
 				79A6720627A813E200954B8E /* Main.storyboard in Resources */,
 				792FB0D427B6F4560065D340 /* GoogleService-Info.plist in Resources */,
+				794585AF27CD44AA00848799 /* launch_screen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -84,7 +84,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
   <a href="https://github.com/dmintzer75/Daro-s-Chat-App">
-    <img src="Daro's-Chat-App/images/first_screen.png" alt="Logo" width="80" height="80">
+    <img src="Daro's-Chat-App/images/first_screen.png" alt="first_screen">
   </a>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -92,14 +92,11 @@
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Swift](https://www.swift.org/documentation/)
+* [Xcode](https://developer.apple.com/documentation/xcode)
+* [Firebase](https://firebase.google.com/)
+* [Cloud Firestore](https://firebase.google.com/docs/firestore)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -187,7 +184,7 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MINTZ License. See `LICENSE.txt` for more information.
   <a href="https://github.com/dmintzer75/Daro-s-Chat-App">
-    <img src="Daro's-Chat-App/images/launch_screen.pdf" alt="Logo" width="80" height="80">
+    <img src="Daro's-Chat-App/images/launch_screen.png" alt="launch_screen">
   </a>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
