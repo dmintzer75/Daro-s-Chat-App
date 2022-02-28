@@ -89,11 +89,7 @@
     <img src="Daro's-Chat-App/images/first_screen.png" alt="first_screen" width="200" height="400">
   </a>
 </div>
-
-
-  <a href="https://github.com/dmintzer75/Daro-s-Chat-App">
-    <img src="Daro's-Chat-App/images/first_screen.png" alt="first_screen" width="200" height="400">
-  </a>
+<br />
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
