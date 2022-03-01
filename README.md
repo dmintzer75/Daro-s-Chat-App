@@ -192,7 +192,7 @@ Don't forget to give the project a star! Thanks again!
     Distributed under the MINTZ License. See `LICENSE.txt` for more information.
   </p>
   <a href="https://github.com/dmintzer75/Daro-s-Chat-App">
-    <img src="Daro's-Chat-App/images/launch_screen.png" alt="Logo" width="200" height="200">
+    <img src="Daro's-Chat-App/images/launch_screen.png" alt="Logo" width="100" height="100">
   </a>
   
 </div>
