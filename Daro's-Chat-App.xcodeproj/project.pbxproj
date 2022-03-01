@@ -24,6 +24,7 @@
 		79A6720627A813E200954B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A6720427A813E200954B8E /* Main.storyboard */; };
 		79A6720827A813E300954B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79A6720727A813E300954B8E /* Assets.xcassets */; };
 		79A6720B27A813E300954B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79A6720927A813E300954B8E /* LaunchScreen.storyboard */; };
+		79B102B827CE283100944D72 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 79B102B727CE283100944D72 /* IQKeyboardManagerSwift */; };
 		79ED10B127BAF94100FD4446 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79ED10B027BAF94100FD4446 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 			files = (
 				792FB0D727B6F75E0065D340 /* FirebaseAuth in Frameworks */,
 				792FB0D927B6F75E0065D340 /* FirebaseFirestore in Frameworks */,
+				79B102B827CE283100944D72 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +156,7 @@
 			packageProductDependencies = (
 				792FB0D627B6F75E0065D340 /* FirebaseAuth */,
 				792FB0D827B6F75E0065D340 /* FirebaseFirestore */,
+				79B102B727CE283100944D72 /* IQKeyboardManagerSwift */,
 			);
 			productName = "Daro's-Chat-App";
 			productReference = 79A671FB27A813E200954B8E /* Daro's-Chat-App.app */;
@@ -185,6 +188,7 @@
 			mainGroup = 79A671F227A813E200954B8E;
 			packageReferences = (
 				792FB0D527B6F75E0065D340 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				79B102B627CE283100944D72 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 79A671FC27A813E200954B8E /* Products */;
 			projectDirPath = "";
@@ -457,6 +461,14 @@
 				minimumVersion = 8.0.0;
 			};
 		};
+		79B102B627CE283100944D72 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -469,6 +481,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 792FB0D527B6F75E0065D340 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		79B102B727CE283100944D72 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79B102B627CE283100944D72 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
